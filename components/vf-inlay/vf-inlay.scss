@@ -12,7 +12,7 @@
     minmax(var(--page-grid-gap), 60px)
   ;
 
-  &:last-of-type {
+  &:last-of-type:not(header) {
     margin-bottom: 48px;
   }
 
